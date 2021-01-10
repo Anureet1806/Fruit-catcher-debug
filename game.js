@@ -65,6 +65,11 @@ class Game{
 
                          
                      }
+                     textSize(25);
+                     fill("white");
+                     text("player1:"+allPlayers.player1.score,50,50);
+                     text("player2:"+allPlayers.player2.score,50,100);
+
                     }
                     if(keyIsDown(UP_ARROW) && player.index !== null){
                         player.distance +=10
@@ -117,10 +122,6 @@ class Game{
                   }
                     }
                 }
-
-         
-         
-
 
     }
 
